@@ -31,15 +31,15 @@ class Square(Shape):
 
 if __name__ == "__main__":
     vector = VectorRenderer()
-    raster = PixelRenderer()
+    pixel = PixelRenderer()
 
     circle_vector = Circle(vector)
-    circle_raster = Circle(raster)
+    circle_pixel = Circle(pixel)
     
     square_vector = Square(vector)
-    square_raster = Square(raster)
+    square_pixel = Square(pixel)
 
     circle_vector.draw()
-    circle_raster.draw()
+    circle_pixel.draw()
     square_vector.draw()
-    square_raster.draw()
+    square_pixel.draw()
